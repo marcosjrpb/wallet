@@ -55,7 +55,7 @@ function generateWallet() {
 const wallet = generateWallet();
 
 // Exibir os dados gerados
-console.log("🔹 Carteira Gerada!");
+console.log("🔹 Carteira Gerada com Sucesso!");
 console.log("📌 Rede:", wallet.network);
 console.log("🏦 Endereço BTC:", wallet.address);
 console.log("🔑 Chave Privada:", wallet.privateKey);
